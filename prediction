@@ -2258,8 +2258,8 @@ folder2:AddButton("School Roof", function(bool)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-525.353455, 68.125, 311.824402, 0.999992013, 1.03866675e-08, -0.00399552286, -1.03507425e-08, 1, 9.01170427e-09, 0.00399552286, -8.97027519e-09, 0.999992013)
 end)
 
-CreditTAB:AddButton("Owner Zero Scripted By TwiZzy", function(bool)
-    setclipboard("Ywanns#0940 TwiZzy#1635 Comparo#3448")
+CreditTAB:AddButton("Owner Zero Scripted By Zero", function(bool)
+    setclipboard("ZeroZ#6969")
     wait(1)
     local function callback(text)
         if text == "Yes" then
@@ -2273,7 +2273,7 @@ CreditTAB:AddButton("Owner Zero Scripted By TwiZzy", function(bool)
     
     game.StarterGui:SetCore("SendNotification", {
         Title = "Hii ^^";
-        Text = "Discord Link Copied On Clipboard";
+        Text = "I wonder what the discord link is";
         Icon = "RBXID OR BLANK";
         Duration = "DURATION IN SECONDS";
         callbakc = bindableFunction;
@@ -2510,7 +2510,7 @@ function Aiming.Check()
     -- // Check if downed
     local Character = Aiming.Character(Aiming.Selected)
     local KOd = Character:WaitForChild("BodyEffects")["K.O"].Value
-    local Grabbed = Character:FindFirstChild("GRABBING_CONSTRAINT") ~= nil
+    local Grabbed = Character:FindFirstChild("GRABBING_CONSTRAINT") ~= nil --loads the grabbed ojects (use this for skidding LOL)
 
     -- // Check B
     if (KOd or Grabbed) then
