@@ -2138,7 +2138,7 @@ local themes = {
 local DaHoodSettings = {
     SilentAim = false,
     AimLock = false,
-    Prediction = 0.178
+    Prediction = 0.141
 }
 
 getgenv().DaHoodSettings = DaHoodSettings
@@ -2253,7 +2253,6 @@ end)
 folder2:AddButton("Cementery", function(bool)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(135.109558, 99.75, -57.2315979, 0.999993503, -0.000633752206, -0.0035054055, 0.000638642872, 0.999998808, 0.00139435288, 0.00350463158, -0.00139658386, 0.999992728)
 end)
-
 folder2:AddButton("School Roof", function(bool)
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-525.353455, 68.125, 311.824402, 0.999992013, 1.03866675e-08, -0.00399552286, -1.03507425e-08, 1, 9.01170427e-09, 0.00399552286, -8.97027519e-09, 0.999992013)
 end)
